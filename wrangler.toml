@@ -1,0 +1,28 @@
+name = "athar-oman"
+type = "javascript"
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+
+# Cloudflare Pages configuration
+pages_build_output_dir = "dist"
+
+[env.production]
+name = "athar-oman-prod"
+routes = [
+  { pattern = "example.com/*", zone_name = "example.com" }
+]
+
+# Build settings
+[build]
+command = "npm run build"
+cwd = "./"
+watch_paths = ["src/**/*.ts", "src/**/*.tsx", "public/**/*"]
+
+# Environment variables
+[env.production.vars]
+ENVIRONMENT = "production"
+
+[env.development.vars]
+ENVIRONMENT = "development"

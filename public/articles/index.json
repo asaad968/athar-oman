@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "malik-bin-fahm",
+    "title": "مالك بن فهم الأزدي",
+    "category": "personalities",
+    "group": "malik",
+    "date": "2025-01-10",
+    "image": "/assets/placeholder.svg",
+    "excerpt": "مؤسس أول دولة عربية في عُمان بعد هجرة الأزد من اليمن.",
+    "tags": ["مالك بن فهم","الأزد","تأسيس"]
+  },
+  {
+    "slug": "battle-salout",
+    "title": "معركة سلوت",
+    "category": "battles",
+    "group": "malik",
+    "date": "2025-01-12",
+    "image": "/assets/placeholder.svg",
+    "excerpt": "المعركة التي حسم بها مالك بن فهم وجوده في أرض عُمان.",
+    "tags": ["معركة","سلوت","الفرس"]
+  },
+  {
+    "slug": "nabhani-state",
+    "title": "دولة النباهنة",
+    "category": "states",
+    "group": "nabhani",
+    "date": "2025-02-01",
+    "image": "/assets/placeholder.svg",
+    "excerpt": "إحدى أطول الدول العُمانية حُكمًا، امتدّت لقرون.",
+    "tags": ["النباهنة","دولة"]
+  },
+  {
+    "slug": "yaaruba-state",
+    "title": "دولة اليعاربة",
+    "category": "states",
+    "group": "yaaruba",
+    "date": "2025-02-05",
+    "image": "/assets/placeholder.svg",
+    "excerpt": "دولة طرد العُمانيون فيها البرتغاليين وبنوا أسطولاً عظيماً.",
+    "tags": ["اليعاربة","الإمام ناصر"]
+  },
+  {
+    "slug": "busaid-state",
+    "title": "دولة البوسعيد",
+    "category": "states",
+    "group": "busaid",
+    "date": "2025-02-10",
+    "image": "/assets/placeholder.svg",
+    "excerpt": "الدولة القائمة منذ منتصف القرن الثامن عشر إلى اليوم.",
+    "tags": ["البوسعيد","أحمد بن سعيد"]
+  },
+  {
+    "slug": "fall-of-hormuz",
+    "title": "تحرير هرمز من البرتغاليين",
+    "category": "events",
+    "group": "yaaruba",
+    "date": "2025-02-15",
+    "image": "/assets/placeholder.svg",
+    "excerpt": "حدث مفصلي أعاد لعُمان نفوذها البحري.",
+    "tags": ["هرمز","البرتغال","اليعاربة"]
+  },
+  {
+    "slug": "ahmed-bin-said",
+    "title": "الإمام أحمد بن سعيد",
+    "category": "personalities",
+    "group": "busaid",
+    "date": "2025-02-20",
+    "image": "/assets/placeholder.svg",
+    "excerpt": "مؤسس دولة البوسعيد ومحرّر عُمان من الغزو الفارسي.",
+    "tags": ["أحمد بن سعيد","البوسعيد"]
+  },
+  {
+    "slug": "first-imams",
+    "title": "دولة أئمة عُمان الأوائل",
+    "category": "states",
+    "group": "aimma",
+    "date": "2025-03-01",
+    "image": "/assets/placeholder.svg",
+    "excerpt": "بدايات نظام الإمامة في عُمان وأبرز أئمتها.",
+    "tags": ["الإمامة","الجلندى"]
+  }
+]

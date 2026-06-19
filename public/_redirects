@@ -1,0 +1,11 @@
+# Redirect rules for Netlify
+# Ensure all routes are served with index.html for SPA routing
+
+# Redirect trailing slashes
+/home.html/ /home.html 301
+/article.html/ /article.html 301
+/category.html/ /category.html 301
+/search.html/ /search.html 301
+
+# Catch-all for SPA routing (if needed)
+/* /index.html 200

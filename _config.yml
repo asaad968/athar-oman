@@ -1,0 +1,32 @@
+# GitHub Pages configuration
+# This file is for GitHub Pages deployment
+
+# Build settings
+markdown: kramdown
+exclude:
+  - node_modules
+  - .git
+  - .gitignore
+  - README.md
+  - package.json
+  - package-lock.json
+  - tsconfig.json
+  - vite.config.ts
+  - bunfig.toml
+  - bun.lock
+  - src
+  - .nojekyll
+
+# Site settings
+title: أثر عُمان
+description: موسوعة التاريخ العُماني
+url: ""
+baseurl: ""
+
+# Collections
+collections_dir: public/articles
+
+# Disable Jekyll processing for certain files
+keep_files:
+  - public
+  - dist

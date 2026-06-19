@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>/home.html</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>/category.html?type=personalities</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>/category.html?type=events</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>/category.html?type=battles</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>/category.html?type=states</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>/article.html?slug=malik-bin-fahm</loc><priority>0.6</priority></url>
+  <url><loc>/article.html?slug=battle-salout</loc><priority>0.6</priority></url>
+  <url><loc>/article.html?slug=nabhani-state</loc><priority>0.6</priority></url>
+  <url><loc>/article.html?slug=yaaruba-state</loc><priority>0.6</priority></url>
+  <url><loc>/article.html?slug=busaid-state</loc><priority>0.6</priority></url>
+  <url><loc>/article.html?slug=fall-of-hormuz</loc><priority>0.6</priority></url>
+  <url><loc>/article.html?slug=ahmed-bin-said</loc><priority>0.6</priority></url>
+  <url><loc>/article.html?slug=first-imams</loc><priority>0.6</priority></url>
+</urlset>

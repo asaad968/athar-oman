@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>أثر عُمان — موسوعة التاريخ العُماني</title>
+  <meta name="description" content="أثر عُمان: موسوعة شاملة للتاريخ العُماني — شخصيات، أحداث، معارك، ودول." />
+  <meta name="keywords" content="عمان, تاريخ عمان, موسوعة, مالك بن فهم, اليعاربة, البوسعيد, النباهنة" />
+  <meta name="author" content="أثر عُمان" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="أثر عُمان — موسوعة التاريخ العُماني" />
+  <meta property="og:description" content="موسوعة شاملة للتاريخ العُماني." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ar_AR" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "أثر عُمان",
+    "inLanguage": "ar",
+    "description": "موسوعة التاريخ العُماني"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <!-- ============ Header ============ -->
+  <header class="site-header">
+    <div class="header-inner">
+      <button class="menu-btn" id="menuBtn" aria-label="القائمة">☰</button>
+      <a href="./home.html" class="brand">
+        <span class="brand-mark">ع</span>
+        <span class="brand-name">أثر عُمان</span>
+      </a>
+      <form class="search-box" action="./search.html" method="get" role="search">
+        <input type="search" name="q" placeholder="ابحث في الموسوعة..." aria-label="بحث" />
+        <button type="submit" aria-label="بحث">🔍</button>
+      </form>
+    </div>
+  </header>
+
+  <!-- ============ Side Menu ============ -->
+  <aside class="side-menu" id="sideMenu" aria-hidden="true">
+    <div class="side-menu-header">
+      <span>القائمة</span>
+      <button class="close-btn" id="closeMenuBtn" aria-label="إغلاق">×</button>
+    </div>
+    <nav>
+      <a href="./home.html">الرئيسية</a>
+      <a href="./category.html?type=all">المقالات</a>
+      <a href="./category.html?type=personalities">الشخصيات</a>
+      <a href="./category.html?type=events">الأحداث</a>
+      <a href="./category.html?type=battles">المعارك</a>
+      <a href="./category.html?type=states">الدول</a>
+      <a href="#contact">تواصل مع المطور</a>
+    </nav>
+    <div class="contact-block" id="contact">
+      <h4>تواصل مع المطور</h4>
+      <p>البريد الإلكتروني:</p>
+      <a href="mailto:asadgemar7@gmail.com">asadgemar7@gmail.com</a>
+    </div>
+  </aside>
+  <div class="overlay" id="overlay"></div>
+
+  <main>
+    <!-- ============ Hero ============ -->
+    <section class="hero">
+      <div class="hero-inner">
+        <h1>مرحباً بكم في <span class="gold">أثر عُمان</span></h1>
+        <p>مشروع موسوعة التاريخ العُماني — رحلة عبر القرون في صفحات مرتبة.</p>
+
+        <div class="stats" id="stats">
+          <div class="stat-card"><span class="num" data-stat="all">0</span><span>إجمالي المقالات</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Main Categories ============ -->
+    <section class="container">
+      <h2 class="section-title">التصنيفات الرئيسية</h2>
+      <div class="cat-grid">
+        <a class="cat-card" href="./category.html?type=personalities">
+          <div class="cat-icon">👤</div><h3>الشخصيات</h3><p>أعلام عُمان عبر التاريخ</p>
+        </a>
+        <a class="cat-card" href="./category.html?type=events">
+          <div class="cat-icon">📜</div><h3>الأحداث</h3><p>أبرز الأحداث التاريخية</p>
+        </a>
+        <a class="cat-card" href="./category.html?type=battles">
+          <div class="cat-icon">⚔️</div><h3>المعارك</h3><p>معارك خاضها العُمانيون</p>
+        </a>
+        <a class="cat-card" href="./category.html?type=states">
+          <div class="cat-icon">🏛️</div><h3>الدول</h3><p>الدول العُمانية المتعاقبة</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ Article of the Day ============ -->
+    <section class="container">
+      <h2 class="section-title">مقال اليوم</h2>
+      <div id="dailyArticle" class="daily-article">جارٍ التحميل...</div>
+    </section>
+
+    <!-- ============ Latest Articles ============ -->
+    <section class="container">
+      <h2 class="section-title">أحدث المقالات</h2>
+      <div id="latestArticles" class="articles-grid">جارٍ التحميل...</div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© أثر عُمان — موسوعة التاريخ العُماني</p>
+    <p>تواصل: <a href="mailto:asadgemar7@gmail.com">asadgemar7@gmail.com</a></p>
+  </footer>
+
+  <script src="./js/base-path.js"></script>
+  <script src="./js/article-loader.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
